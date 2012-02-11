@@ -9,4 +9,6 @@ A sample application demonstrating how to save the output of Signature Pad into 
 
 ## License
 
-The Unlicense (aka: public domain).
+This sample app is licensed under The Unlicense (aka: public domain).
+
+All dependencies: Signature Pad, jQuery, JSON 2, and FlashCanvas retain their own licenses.
