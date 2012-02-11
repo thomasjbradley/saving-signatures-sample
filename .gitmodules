@@ -1,0 +1,3 @@
+[submodule "signature-pad"]
+	path = signature-pad
+	url = git://github.com/thomasjbradley/signature-pad.git
