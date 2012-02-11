@@ -10,8 +10,10 @@
    6. Trigger the display of the signature regeneration
 */
 
-$errors = array(); // Tracks what fields have validation errors
-$show_form = true; // Default to showing the form
+// Tracks what fields have validation errors
+$errors = array();
+// Default to showing the form
+$show_form = true;
 
 // 1. Get the input from the form
 //  Using the PHP filters are the most secure way of doing it
@@ -40,7 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // 4. Open a connection to the database using PDO
     $db = new PDO($dsn, $user, $pass);
-    $db->exec('SET NAMES utf8'); // Make sure we are talking to the database in UTF-8
+	// Make sure we are talking to the database in UTF-8
+    $db->exec('SET NAMES utf8');
 
     // Create some other pieces of information about the user
     //  to confirm the legitimacy of their signature
