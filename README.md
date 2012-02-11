@@ -2,6 +2,10 @@
 
 A sample application demonstrating how to save the output of Signature Pad into a MySQL database using PHP.
 
+## Sample App Docs
+
+- <http://thomasjbradley.ca/articles/saving-signatures-php-mysql/>
+
 ## Signature Pad
 
 - Documentation: <http://thomasjbradley.ca/lab/signature-pad>
